@@ -1,0 +1,565 @@
+@font-face {
+  font-family: 'Nespresso-Bold';
+  src: url('../fonts/Nespresso-Bold.eot');
+  src: url('../fonts/Nespresso-Bold.woff2') format('woff2'),
+       url('../fonts/Nespresso-Bold.woff') format('woff'),
+       url('../fonts/Nespresso-Bold.ttf') format('truetype'),
+       url('../fonts/Nespresso-Bold.svg#Nespresso-Bold') format('svg'),
+       url('../fonts/Nespresso-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nespresso-ExtraBold';
+  src: url('../fonts/Nespresso-ExtraBold.eot');
+  src: url('../fonts/Nespresso-ExtraBold.woff2') format('woff2'),
+       url('../fonts/Nespresso-ExtraBold.woff') format('woff'),
+       url('../fonts/Nespresso-ExtraBold.ttf') format('truetype'),
+       url('../fonts/Nespresso-ExtraBold.svg#Nespresso-ExtraBold') format('svg'),
+       url('../fonts/Nespresso-ExtraBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nespresso-Light';
+  src: url('../fonts/Nespresso-Light.eot');
+  src: url('../fonts/Nespresso-Light.woff2') format('woff2'),
+       url('../fonts/Nespresso-Light.woff') format('woff'),
+       url('../fonts/Nespresso-Light.ttf') format('truetype'),
+       url('../fonts/Nespresso-Light.svg#Nespresso-Light') format('svg'),
+       url('../fonts/Nespresso-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nespresso';
+  src: url('../fonts/Nespresso-Regular.eot');
+  src: url('../fonts/Nespresso-Regular.woff2') format('woff2'),
+       url('../fonts/Nespresso-Regular.woff') format('woff'),
+       url('../fonts/Nespresso-Regular.ttf') format('truetype'),
+       url('../fonts/Nespresso-Regular.svg#Nespresso-Regular') format('svg'),
+       url('../fonts/Nespresso-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+a.button{
+    display: inline-block;
+    background: #fff;
+    line-height: 40px;
+    padding: 0px 30px;
+    font-family: 'Nespresso-Bold';
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+body{
+    background: #000 url('../images/bg1.png') no-repeat top center;
+    font-family: 'Nespresso';
+    color: #fff;
+    padding-bottom: 150px;
+}
+
+#line_1{}
+#line_1 a.logo{
+    display: inline-block;
+    margin-top: 35px;
+}
+
+#line_2{}
+#line_2 h1{
+    font-family: 'Nespresso-Light';
+    font-size: 40px;
+    line-height: 45px;
+    color: #fff;
+    max-width: 380px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 90px;
+}
+#line_2 a.button{
+    margin: 20px 0px 50px;
+}
+#line_2 p.subtitle{
+    font-family: 'Nespresso-Light';
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#line_2 p.subtitle span{
+    font-size: 30px;
+}
+#line_2 p.subtitle span:last-child {
+    transform: rotate(180deg);
+    display: inline-block;
+    position: relative;
+    top: 11px;
+}
+#line_2 p.name{
+    font-size: 20px;
+    color: #e86560;
+    margin-bottom: 0px;
+}
+#line_2 p.desc{
+    font-family: 'Nespresso-Light';
+    font-size: 13px;
+    line-height: 21px;
+    color: #fff;
+}
+
+#line_3{
+    margin-top: 100px;
+}
+#line_3 .item{
+    border-left: 2px solid #e1625d;
+}
+#line_3 .item p a{
+    font-family: 'Nespresso-Light';
+    font-size: 20px;
+    line-height: 25px;
+    min-height: 55px;
+    color: #fff;
+    cursor: pointer;
+}
+#line_3.fixed{
+    position: fixed;
+    top: 0px;
+    background: #000;
+    z-index: 3;
+    width: 100%;
+    margin: 0px;
+}
+#line_3.fixed .container{
+    width: 90%;
+}
+#line_3.fixed p a{
+    font-size: 18px;
+}
+#line_4{
+    margin-top: 110px;
+}
+#line_4 h2{
+    font-family: 'Nespresso-Bold';
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+#line_4 h3{
+    font-family: 'Nespresso-Bold';
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;   
+    max-width: 440px;
+}
+#line_4 p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    max-width: 470px;
+}
+#line_4 a.button{
+    margin-top: 20px;
+}
+
+#line_5{
+    border-top: 1px solid #1b1b1b;
+    border-bottom: 1px solid #1b1b1b;
+    margin-top: 65px;
+    padding-top: 30px;
+}
+#line_5 .bg{
+    background: url('../images/img_2.png') no-repeat top center;
+    min-height: 145px;
+}
+#line_5 .bg p {
+    font-family: 'Nespresso-Light';
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#line_5 .bg p span{
+    font-family: 'Nespresso-Bold';    
+}
+
+#line_6{
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+#line_6 h3{
+    font-family: 'Nespresso-Light';
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;   
+    max-width: 440px;
+}
+#line_6 p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    max-width: 470px;
+}
+#line_6 a.button{
+    margin-top: 20px;
+}
+
+#line_7{
+    background: url('../images/bg2.png') no-repeat center center;
+    min-height: 760px;
+    position: relative;
+    z-index: 0;
+    top: -70px;
+}
+#line_7 .container{
+    position: relative;
+}
+#line_7 p{
+    position: absolute;
+    top: 300px;
+    font-family: 'Nespresso-Light';
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 470px;
+    left: 100px;
+}
+
+#line_8 {}
+#line_8 .bg{
+    background: url('../images/lenta.png') no-repeat top center;
+    min-height: 700px;
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+}
+#line_8 .bg p{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 70px;    
+}
+#line_8 .bg p:first-child{
+    color: #e86560;
+    font-family: 'Nespresso-Bold';
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+
+
+#line_9{}
+
+
+
+#line_10{}
+#line_10 p.title{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 690px;
+}
+#line_10 .items{
+    text-align: center;
+    padding: 40px 0px;
+}
+#line_10 .items .item{
+    max-width: 250px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0px 15px;
+}
+#line_10 .items .item .img{
+    min-height: 90px;
+}
+#line_10 .items .item p{
+    font-family: 'Nespresso-Bold';
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    max-width: 175px;
+}
+#line_10 a.button{
+    background: #e86560;
+    color: #fff;
+}
+#line_11{
+    margin-top: 60px;
+}
+
+#line_11 p {
+    font-family: 'Nespresso-Light';
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 36px;
+}
+#line_11 p span{
+    font-family: 'Nespresso-Bold';  
+    display: block;  
+}
+.modal-dialog{
+    width: 100%;
+    max-width: 900px;
+    padding: 0px;
+    margin: 0px auto;
+}
+.myModal .modal-body{
+    padding: 15px 60px;
+    
+}
+.modal-header{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.modal-header a.logo{
+    padding-left: 55px;
+}
+.myModal{display: none;}
+.myModal .modal-content{
+    box-shadow: none;
+    border-radius: 0px;
+    background: #000;
+}
+.myModal .close{
+    opacity: 1;
+    font-size: 40px;
+    color: #fff;
+    outline: none;
+}
+.myModal p.subtitle{
+    font-family: 'Nespresso-Bold'; 
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+.myModal .title{
+    font-family: 'Nespresso-Light';
+    font-size: 38px;
+    line-height: 42px;
+    padding-left: 15px;
+}
+.myModal .social{
+    padding: 30px 15px;
+}
+.myModal .text{
+    background: url('../images/modal_img.png') no-repeat left center;
+    font-family: 'Nespresso-Light';
+    font-size: 29px;
+    line-height: 33px;
+    padding-left: 100px;
+    margin: 40px 0px;
+}
+.myModal ul li{
+    padding-bottom: 20px;
+}
+.myModal .modal-body, #myModal .modal-body p, #myModal .modal-body li{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.myModal .next{
+    margin: 40px 0px;
+}
+.myModal .next a{
+    display: inline-block;
+    font-family: 'Nespresso-Bold';
+    font-size: 14px;
+    vertical-align: top;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.myModal .next span{
+    display: inline-block;
+    border-left: 2px solid #e86560;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 20px;
+}
+.myModal .foot p {
+    font-family: 'Nespresso-Light';
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 36px;
+}
+.myModal .foot p span{
+    font-family: 'Nespresso-Bold';  
+    display: block;  
+}
+
+
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+
+
+
+
+
+
+.bs-wizard {margin-top: 40px;margin-bottom: 45px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff;font-family: 'Nespresso-Bold';  margin-bottom: 5px;font-size: 12px;text-transform: uppercase;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum span{font-size: 46px;display: block;font-family: 'Nespresso';}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 215px;
+    margin: 0 auto;
+}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 18px; height: 21px; background: url('../images/ico_step.png') no-repeat center center; display: block;  top: 109px; left: 50%; margin-top: -15px; margin-left: -9px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 2px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #753331;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    #line_3 .item p {
+        font-size: 16px;
+    }
+    #line_3.fixed{
+        position: relative!important;
+        margin-top: 10px;
+    }
+    #line_3.fixed .container{
+        width: inherit;
+    }
+    #line_3.fixed p a{
+        font-size: 20px;;
+    }    
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #line_4 a.button{
+        margin-bottom: 20px;
+    }
+    #line_7 p{
+        left: 20px;
+    }
+    #line_7{
+            min-height: 560px;
+    }
+    .bs-wizard-step{
+        width: 25%;
+        float: left;
+    }
+    #line_3.fixed{
+        position: relative!important;
+        margin-top: 10px;
+    }
+    #line_3.fixed .container{
+        width: inherit;
+    }
+    #line_3.fixed p a{
+        font-size: 20px;;
+    }    
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+   #line_2 h1{
+       font-size: 35px;
+   } 
+   #line_8 .bg p:first-child{
+       padding-top: 0px;
+   }
+   #line_8 .bg p{
+       padding: 0px 15px;
+   }
+   #line_8 .bg{
+        min-height: 500px;
+   }
+   .bs-wizard > .bs-wizard-step > .progress, .bs-wizard > .bs-wizard-step > .bs-wizard-dot{
+        display: none;
+   }
+   .bs-wizard > .bs-wizard-step{       
+        margin-bottom: 20px;
+        border-top: 2px solid #fff;
+   }
+   .bs-wizard-step{
+       width: 100%;
+       float: none;
+   }
+   .modal-header a.logo{
+       padding-left: 0px;
+   }
+   .myModal .modal-body{
+       padding: 15px 0px;
+   }
+   .myModal .title{
+       font-size: 32px;
+   }
+   .myModal .text{
+       background: url('../images/modal_img.png') no-repeat top center;
+       padding-left: 0px;
+       padding-top: 100px;
+   }
+}
+
+@media (max-width: 380px) {
+    #line_2 h1 {
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
